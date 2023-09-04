@@ -7,6 +7,7 @@ export default function Home() {
 		<Layout home>
 			<Head>
 				<title>{siteTitle}</title>
+				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<section className={utilStyles.headingMd}>
 				<p>Hello, there 👋! My name is Matias.</p>
